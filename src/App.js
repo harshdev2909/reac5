@@ -5,6 +5,7 @@ import { Form } from './components/Form';
 import UseEffect from './components/UseEffect';
 import Fetch from './components/Fetch';
 import MultipleFetch from './components/MultipleFetch';
+import { A } from './jsx/A';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <Form/> */}
       {/* <UseEffect/>
       <Fetch/> */}
-      <MultipleFetch/>
+      {/* <MultipleFetch/> */}
+      <A/>
     </div>
   );
 }
