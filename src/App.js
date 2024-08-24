@@ -6,16 +6,18 @@ import UseEffect from './components/UseEffect';
 import Fetch from './components/Fetch';
 import MultipleFetch from './components/MultipleFetch';
 import { A } from './jsx/A';
+import UseReducer from './components/UseReducer';
 
 function App() {
   return (
     <div>
-      {/* <State/>
-      <Form/> */}
+      {/* <State/> */}
+      <Form/>
       {/* <UseEffect/>
       <Fetch/> */}
       {/* <MultipleFetch/> */}
-      <A/>
+      {/* <A/> */}
+      {/* <UseReducer/> */}
     </div>
   );
 }
