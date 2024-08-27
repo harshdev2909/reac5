@@ -7,12 +7,14 @@ import Fetch from './components/Fetch';
 import MultipleFetch from './components/MultipleFetch';
 import { A } from './jsx/A';
 import UseReducer from './components/UseReducer';
+import New from './jsx/New';
 
 function App() {
   return (
     <div>
       {/* <State/> */}
       <Form/>
+      <New/>
       {/* <UseEffect/>
       <Fetch/> */}
       {/* <MultipleFetch/> */}
