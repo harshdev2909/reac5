@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 export const Forms = () => {
-const[name,setName] =useState('')
+const[name,setName] =useState('');
     const handleSubmit =(e)=>{
         e.preventDefault();
         console.log('form submited')
@@ -42,4 +42,4 @@ const[name,setName] =useState('')
         </form> 
     </div>
   )
-}
+};
